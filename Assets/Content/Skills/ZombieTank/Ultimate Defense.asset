@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89557dec81ae674a83b56e30b48672a, type: 3}
+  m_Name: Ultimate Defense
+  m_EditorClassIdentifier: 
+  skillName: Ultimate Defense
+  isPassive: 0
+  skillImage: {fileID: 2800000, guid: 9ae37aab2e5ceb3499c477cf9ebb3872, type: 3}
+  langDesc: Incrementa +(%1) de Defensa y Defensa Magica por 30 seg
+  statsGrown:
+  - Defenses
+  isFlatStat: 0
+  fristStatMultiplier:
+  - 1000
+  - 2000
+  secondStatMultiplier: []
+  terthStatMultiplier: []
+  isCustom: 0

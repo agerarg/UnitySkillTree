@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89557dec81ae674a83b56e30b48672a, type: 3}
+  m_Name: Bite
+  m_EditorClassIdentifier: 
+  skillName: Bite
+  id: 0
+  isPassive: 0
+  skillImage: {fileID: 2800000, guid: e20ba0a5325ff3e47b612f704de12fff, type: 3}
+  manaCost: 200
+  coolDown: 10
+  langDesc: "Hace (%1) de da\xF1o al enemigo, te cura 15% de vida y te da un aura
+    (+20% de ataque por 5 min)"
+  statsGrown: []
+  isFlatStat: 0
+  fristStatMultiplier: []
+  secondStatMultiplier: []
+  terthStatMultiplier: []
+  isCustom: 0

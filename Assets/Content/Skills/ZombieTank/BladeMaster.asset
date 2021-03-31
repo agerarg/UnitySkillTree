@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89557dec81ae674a83b56e30b48672a, type: 3}
+  m_Name: BladeMaster
+  m_EditorClassIdentifier: 
+  skillName: Blade Master
+  isPassive: 1
+  skillImage: {fileID: 2800000, guid: b2b7ff0b7b2a92a4bbc5a693801805ed, type: 3}
+  langDesc: Incrementa +(%1) Ataque, +(%2)% Ataque, +(%3) Critico requiere sword
+    o blunt
+  statsGrown:
+  - Attack
+  - AttackPer
+  - Critical
+  isFlatStat: 1
+  fristStatMultiplier:
+  - 5
+  - 10
+  - 15
+  - 20
+  secondStatMultiplier:
+  - 15
+  - 20
+  - 30
+  - 50
+  terthStatMultiplier:
+  - 2
+  - 4
+  - 8
+  - 16
+  isCustom: 0

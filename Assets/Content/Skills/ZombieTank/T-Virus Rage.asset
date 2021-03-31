@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89557dec81ae674a83b56e30b48672a, type: 3}
+  m_Name: T-Virus Rage
+  m_EditorClassIdentifier: 
+  skillName: T-Virus Rage
+  isPassive: 0
+  skillImage: {fileID: 2800000, guid: b6a1b692e6138a64dad93a7137515c3f, type: 3}
+  langDesc: Incrementa la vida 120% por 2 min.
+  statsGrown:
+  - LifePer
+  isFlatStat: 0
+  fristStatMultiplier:
+  - 120
+  secondStatMultiplier: []
+  terthStatMultiplier: []
+  isCustom: 0

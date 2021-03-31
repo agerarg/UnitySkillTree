@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89557dec81ae674a83b56e30b48672a, type: 3}
+  m_Name: Muerte
+  m_EditorClassIdentifier: 
+  skillName: Muerte
+  isPassive: 1
+  skillImage: {fileID: 2800000, guid: 6fa9975c2d5c42c44888cccca106b305, type: 3}
+  langDesc: Pierdes 25% menos Exp cuando mueres y aumenta el elemento dark +15
+  statsGrown: []
+  isFlatStat: 0
+  fristStatMultiplier: []
+  secondStatMultiplier: []
+  terthStatMultiplier: []
+  isCustom: 0
